@@ -9,12 +9,12 @@ body {
   padding: 0;
   font-family: sans-serif;
   max-height: 100vh;
+  overflow: hidden;
 }
 
 .keys {
   display: flex;
-  flex: 1;
-  min-height: 100vh;
+  height: 100vh;
   align-items: flex-end;
   justify-content: center;
 }
@@ -22,7 +22,7 @@ body {
 .key {
   border: 0.4rem solid black;
   border-radius: 0.5rem;
-  margin: 1rem;
+  margin: 0 1rem 4rem 0;
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
   transition: all 0.07s ease;
